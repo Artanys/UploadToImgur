@@ -1,0 +1,18 @@
+{
+  "name" : "UploadToImgur",
+  "version" : "1.0",
+  "description" : "Right click upload a picture on a webpage to Imgur, then copy the direct link to your clipboard.",
+  "background" : { "scripts": ["upload.js"] },
+  "permissions" : [
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "icons" : {
+    "16": "logo_16.png",
+    "48": "logo_48.png",
+    "128": "logo.png"
+  },
+  "manifest_version": 2
+}
